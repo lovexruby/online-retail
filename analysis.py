@@ -220,7 +220,6 @@ prod_agg.to_csv('prod_agg_results.csv', index=False)
 # Analysis ProductPairs
 pairs_df = co_purchase_analysis(df_sales)
 pairs_df.head(10)
-pairs_df.to_csv('pairs_df_results.csv', index=False)
 
 # Plots
 plot_rfm(rfm)
